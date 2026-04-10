@@ -1,7 +1,6 @@
 # EECS4312_W26_SpecChain
 
-# example
-Application: Medito
+# Application: Medito
 
 Dataset:
 - reviews_raw.jsonl contains the collected reviews.
