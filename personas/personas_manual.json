@@ -1,22 +1,196 @@
-{  "personas": [
+{
+  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Reliability-Focused Active User",
+      "description": "A highly active meditation app user who depends on the app for daily use, especially sleep and scheduled sessions, and is highly sensitive to crashes and playback issues.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Use the app consistently for meditation and sleep routines",
+        "Start and complete sessions without interruption",
+        "Maintain accurate progress and streak tracking"
+      ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "App crashes during meditation playback",
+        "Audio stops, loops, or fails to continue next session",
+        "Login errors and inability to access content",
+        "Loss of streaks or progress inconsistencies",
+        "Slow loading or freezing during use",
+        "Offline functionality limitations"
+      ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app during sleep routines or before bedtime",
+        "Using the app in low-attention environments such as resting or outdoor relaxation",
+        "Expecting immediate playback after selecting a meditation session"
+      ],
       "constraints": [
-        "Logging must be reliable",
-        "Data should not be lost"       ],
+        "Playback must be stable and uninterrupted for long sessions",
+        "Progress and streak tracking must be reliable across devices",
+        "Core features should function with minimal loading delays",
+        "Offline or low-connectivity usage should not break core functionality"
+      ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
-    }  ] }
+        "rev_0004",
+        "rev_0011",
+        "rev_0022",
+        "rev_0028",
+        "rev_0101",
+        "rev_0123",
+        "rev_0129",
+        "rev_0132",
+        "rev_0142",
+        "rev_0172"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Feature-Seeking Power User",
+      "description": "An engaged user who actively uses meditation features but wants more control, customization, and workflow improvements within the app.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Customize meditation experience and session flow",
+        "Improve efficiency in starting and managing sessions",
+        "Have better control over app behavior and tracking"
+      ],
+      "pain_points": [
+        "No ability to edit or delete session history",
+        "Lack of session completion controls",
+        "No queueing system for multiple meditations",
+        "Missing interval chimes or timed cues",
+        "Gesture controls interfering with device navigation",
+        "Limited donation/payment options",
+        "Missing feedback or confirmation options for key actions"
+      ],
+      "context": [
+        "Using the app for daily meditation and sleep routines",
+        "Switching between multiple meditation tracks in one session",
+        "Occasionally multitasking or using phone while setting up sessions"
+      ],
+      "constraints": [
+        "Needs flexible session management features",
+        "Requires optional customization without disrupting simplicity for others",
+        "UI interactions must not conflict with system navigation gestures"
+      ],
+      "evidence_reviews": [
+        "rev_0001",
+        "rev_0034",
+        "rev_0042",
+        "rev_0059",
+        "rev_0060",
+        "rev_0086",
+        "rev_0109",
+        "rev_0118",
+        "rev_0121",
+        "rev_0138"
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Satisfied Mindfulness Practitioner",
+      "description": "A user who is highly satisfied with the app’s meditation content, valuing its quality, accessibility, and positive impact on mental health and sleep.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Improve mental wellbeing through guided meditation",
+        "Build a consistent meditation habit",
+        "Improve sleep quality and emotional regulation"
+      ],
+      "pain_points": [
+        "Few or no significant pain points with core experience",
+        "Occasional curiosity about further improvements or content expansion"
+      ],
+      "context": [
+        "Using the app daily for meditation, sleep, and stress relief",
+        "Engaging with structured courses and guided sessions",
+        "Comparing positively to other meditation apps"
+      ],
+      "constraints": [
+        "Expects high-quality guided content to remain consistent",
+        "Wants continued free and easy access to meditation materials",
+        "Values simplicity and ease of use in design"
+      ],
+      "evidence_reviews": [
+        "rev_0012",
+        "rev_0015",
+        "rev_0016",
+        "rev_0017",
+        "rev_0031",
+        "rev_0036",
+        "rev_0039",
+        "rev_0097",
+        "rev_0130",
+        "rev_0131"
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Ad-Free Experience Appreciator",
+      "description": "A user who values a calm, uninterrupted meditation experience and strongly appreciates the absence of advertisements and intrusive monetization.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Maintain a distraction-free meditation experience",
+        "Enjoy calm and uninterrupted sessions",
+        "Use an app that respects attention and mental space"
+      ],
+      "pain_points": [
+        "Negative experiences with ads in other apps",
+        "Concern about potential introduction of ads or distractions"
+      ],
+      "context": [
+        "Using the app during meditation, relaxation, and sleep",
+        "Comparing app experience with ad-supported alternatives",
+        "Engaging in longer uninterrupted meditation sessions"
+      ],
+      "constraints": [
+        "App must remain free of ads and intrusive monetization",
+        "Interface should remain simple and non-distracting",
+        "User expects consistent experience over time"
+      ],
+      "evidence_reviews": [
+        "rev_0070",
+        "rev_0075",
+        "rev_0079",
+        "rev_0113",
+        "rev_0115",
+        "rev_0124",
+        "rev_0141"
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Free-Access Meditation Beginner",
+      "description": "A user motivated by accessibility and cost-free mental health support, often starting or continuing their meditation journey without financial barriers.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Access high-quality meditation without cost",
+        "Start or maintain a meditation habit",
+        "Improve mental wellbeing through free resources"
+      ],
+      "pain_points": [
+        "High costs or paywalls in other meditation apps",
+        "Limited access to quality guided meditation without subscription models"
+      ],
+      "context": [
+        "Exploring meditation for the first time or early in their journey",
+        "Using the app to build discipline and consistency",
+        "Comparing free apps with paid alternatives"
+      ],
+      "constraints": [
+        "Requires full access to core features without payment",
+        "Needs simple onboarding and easy usability",
+        "Expects ongoing availability of free content"
+      ],
+      "evidence_reviews": [
+        "rev_0069",
+        "rev_0068",
+        "rev_0077",
+        "rev_0085",
+        "rev_0087",
+        "rev_0090",
+        "rev_0093",
+        "rev_0108",
+        "rev_0125",
+        "rev_0126"
+      ]
+    }
+  ]
+}

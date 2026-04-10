@@ -2,11 +2,88 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "issue with the app",
+      "review_ids": ["rev_0004", "rev_0011", "rev_0022", "rev_0028", "rev_0101", "rev_0123", "rev_0129", "rev_0132", "rev_0142", "rev_0172"],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "Play button no longer works after the 4/7/2026 update. The app was working great until this update, now it appears to be broken.",
+        "worked for 2 days. donated. 3rd day stopped working. I'm lost. doesn't play the next lesson. android on pixel 7 pro. tried emptying cache and storage and restarting the device. nothing has helped so far. I hope it gets fixed soon. the course starts really well. 🤞🏽",
+        "I love medito, however recently I've had the problem where whenever I try to play a meditation, the app crashes on me. It's very frustrating. Before this, Medito was a marvellous app that taught meditation excellent. Please Medito developers help me 🙏",
+        "I do like this app, I started using it for sleeping but now I am gradually ngoing through the courses. I am not sure how it will aid me in my daily life as of yet, but the courses look good so I am hopeful for a positive change. The only gripe is that while course progress is shared across devices, streaks are not. So if you have more than one device your streak cld be lost because you used your other phone for a few days, get a new one and you have to start from scratch.",
+        "The app is wonderful. It's free and easy to use. I hope to donate to the app soon, as I love what you guys are doing and would love to see it continue and more developments added 🫡 That being said, I deducted one star to get your attention, cause the Daily meditation tends to get stuck on a 3 second loop anytime my phone screen is turned off, and it affects the smoothness of my meditation. Please look into this, team. Thank you, once again for making meditation free and accessible to all.",
+        "update - the player has 1000000 seconds delay sometimes, it's extremely annoying when you go to sleep Simply great. Love narration. Used Calm before (around 50 euro/year!) and I can say this one keeps up overall!",
+        "Good music and story choices but it keeps stopping the music when I have it on repeat. Whenever a song finishes it'll pop up the how long my streak is and I'll have to exit it to continue playing the music. I'm trying to have it play all night while I sleep so this causing the song to stop is very frustrating.",
+        "Edit: This is a nice app and I appreciate the work the developers have put in, but: - The UI is cluttered with distractions: a store, \"featured\" items, courses, streaks, challenges, etc. There is no way to hide these, and the timer, which IMO is the core feature of the app, has become harder to find. - The app does not work at all offline UNLESS you have downloaded tracks in advance, including the timer for the specific time you want. It is not obvious how to download tracks.",
+        "love this app but it stopped working.... it loads extremly slowly and then after loading stops playing the voice and pauses .",
+        "worst meditation app i have ever used I can't even login it always come up with some error It was logged in once successfully but as soon as i open any of the track this app crashes within a second Not a single track i could listen in a week"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "suggestions for the app",
+      "review_ids": ["rev_0001", "rev_0034", "rev_0042", "rev_0059", "rev_0060", "rev_0086", "rev_0109", "rev_0118", "rev_0121", "rev_0138"],
+      "example_reviews": [
+        "Plz there should also be an edit/delete session button! Coz many times I add some unwanted sessions in history! Or just give a reset stats button!",
+        "Love you guys. Just one feedback. Could you add a confirmation screen for when clicking \"Sign out\"? Thanks. And maybe a quick, easily accesible \"feedback\" button too.",
+        "Hello! been using this app for a couple years and its great, the only issue ive been having recently is with the \"Getting Active\" pack, sorry if i may be wrong, but \" james' \" voice feels a bit uncanny and sounds like ai, thanks!",
+        "Great app! Has been hugely positive for my mental health. One small tidbit of feedback: I'd appreciate a button which marks a specific meditation as completed. I often exit out a few seconds before the audio ends which means it isn't marked as finished and my consistency isn't tracked properly.",
+        "Please add an option to disable swipe gestures, as they interfere with my phone's own navigation gestures.",
+        "An absolutely amazing app that's helped me a lot with my sleep pattern. The only thing I would add if I could is a feature to make a queue of multiple different meditations. I personally can't fall asleep that quickly, so I frequently loop or play multiple meditations every time I go to sleep, and I would love it if I could avoid opening my phone while trying to relax to change the meditation. But overall i have no complaints!",
+        "there is no way in this app to set chimes/bells at specific intervals during the meditation (e.g., half-way through, every 5 or 10 minutes, etc)",
+        "This is honestly one of the better meditation apps I've come across. I mainly use it to get to sleep and stay asleep but the other features are just as lovely.",
+        "I love this app. It helped me building discipline and consistency in daily meditation. It also taught how to meditate. Whenever I feel lost or depressed I use this app to gain my focus. Thankyou so much for the wonderful app.",
+        "please add UPI payment methods to donate as some users including me don't have PayPal, card, or Amazon pay. I truly hope you acknowledge this as I really wanna thank you guys but there is no other way to do so"
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "content with the app",
+      "review_ids": ["rev_0012", "rev_0015", "rev_0016", "rev_0017", "rev_0031", "rev_0036", "rev_0039", "rev_0097", "rev_0130", "rev_0131"],
+      "example_reviews": [
+        "this is incredible every time I try to sleep while listening to music from this app I sleep as a baby",
+        "It's the best meditation app out there.",
+        "This is app is well designed for effective and active meditation for people who seek it. What really separates this app from the rest is that it's also non-profitable :O , giving you access to several meditation packs with no paywall! The designers really brought some great voices as well that actively put you that Zen state during every session. I become more mentally clear in just two days of using this app. Brilliant software! Bravo Designer team 👏5/5 (💯%)",
+        "The app is simple, straightforward, free, ad-free, and not game-ified. Just finished the personal insights course and started the 30 day challenge. Love it!",
+        "An excellent app for meditation that is actually free! Great for those who want to start a meditation habit without breaking the bank.",
+        "As a former user of Headspace, I can say that I truly enjoy using this beautiful and well-designed meditation app. It's also genuinely free and I'm never bombarded with ads!",
+        "This app is one of the best apps for free and personally, it helps a lot for easing anger,stress,insomnia and a lot. The app makers had made a free app for the people suffering from anxiety and many more, They are doing a great work.",
+        "Completely free access to solid daily and planned meditation. The courses are as good as you'll find anywhere. This is the ideal option for those new or returning to guided mediation. I'll be denoting to it's success because it's earned it in my opinion.",
+        "I switched to Medito about a month ago, after using insight timer for 7 years due to the odd updates in insight timers privacy policy. I'm so grateful for this app and I love how it feels more intentionally curated. Its also easy to keep track of what has and hasn't been listened to and the meditations have been great. I love the 'courses' and 'packs' too. Thank you for making this!",
+        "I don't know what you guys put in the Sleep meditations, but my sleep has never been better than now! I've been using it for less than a week and the difference has been almost immediate. I will be making donations every time I can! Thank you"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "happy with it being ad less",
+      "review_ids": ["rev_0070", "rev_0075", "rev_0079", "rev_0113", "rev_0115", "rev_0124", "rev_0141", "rev_", "rev_", "rev_"],
+      "example_reviews": [
+        "finally a good app without ads thanks",
+        "I love the layout and content of this app. I'm following the courses and feel like I have really been able to meditate for the first time. This is the best consistent practice I've ever had. There's a choice of voices, clear layout, option to contribute but no ads or pay walled content. It's all clear and well laid out. Wouldn't hesitate to recommend Medito, and have even contributed to their costs, which I felt good about as it was my choice and there's no pressure",
+        "Thankful for a community-based, ad-free app!",
+        "great app and free without any ads a huge thanks to the Medito team and all the ones who made this app accessible to everyone one.",
+        "used this app years ago and was impressed with the no ads no subscription experience. nowadays there are many mental health apps that i stopped using because they all require subscriptions. I loved to see that upon redownload, medito is still subscription and ad free. what a great app",
+        "Wonderful! I've never really meditated before. But I must admit ever since I was young I've had these angry outbursts that come from nowhere so I was looking for something to help my stress and anger and this helps perfectly! It really helps with my anxiety too. Plus, there's no ads, you can download the sessions and you're not forced to donate. It's honestly a perfect app that has calmed me so much already. thank you you've helped a lot ❤️❤️",
+        "it's a great app, free, no ads, and very good instructions on how to meditate. There are many courses and challenges that make you want to continue with it!",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "happy with it being free",
+      "review_ids": ["rev_0069", "rev_0068", "rev_0077", "rev_0085", "rev_0087", "rev_0090", "rev_0093", "rev_0108", "rev_0125", "rev_0126"],
+      "example_reviews": [
+        "the best meditation app u can get for free... even better than some paid ones too.",
+        "i love this app . its free to use and not ask for single penny. if u want donate it . thank you for change my life.",
+        "beautiful and it's free. the day I get a job I'm giving them my first pay :)",
+        "an exceptionally amazing performing app for meditation providing everything for free irrespective of the economy. Truly grateful!!",
+        "Excellent. The app is free and I would personally say the best that is out there. It has tons of categories and guided meditations. very easy Ui and very clean. please try it out",
+        "Free and quality support for your meditation practice. Especially great for beginners, but even those with more experience will appreciate immediate access to daily guided meditations without having to search around. I also love the meditations for sleep and the partnerships with guides from a variety of different schools.",
+        "I am really grateful for this app, if you are looking for a free meditation app to kickstart your meditation journey, Install this app now, without a second thought 😁; Great team!! Thanks for making this world a better place!! ❤️",
+        "one of the best meditation apps thats made very thoughtful and doesn't charge anything!! would highly recommend this to anyone rather than going for high end paid apps...",
+        "Amazing app, and the best part about it is that it's free. thank you for that!",
+        "Medito is insanely helpful and truly the king of meditation apps. It works deeply and calmly, without hype. The most legendary part is that it is COMPLETELY FREE, while most other apps are freemium or locked behind paywalls. Massive respect to the Medito team for giving such powerful quality to everyone. PROMISELY RECOMMENDED TO INSTALLED Clean. Grateful. Powerful. 😌👑I will donate much as I can because, this is the right app to become popular and the publishers, we'll bow to them, thank you."
       ]
     }
-  ]}
+  ]
+}

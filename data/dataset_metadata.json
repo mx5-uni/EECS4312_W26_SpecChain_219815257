@@ -1,0 +1,43 @@
+{
+  "app_name": "Medito: Meditation & Sleep",
+  "dataset_size": {
+    "before_cleaning": 2000,
+    "after_cleaning": 1552
+  },
+  "total_reviews_available": {
+    "before_cleaning": 40100
+  },
+  "collection_method": {
+    "source": "Google Play Store",
+    "library": "google-play-scraper",
+    "sorting": "newest first",
+    "description": "Reviews were collected using the newest-first sorting method to prioritize the most recent user feedback."
+  },
+  "cleaning_decisions": {
+    "deduplication": "Removed duplicate reviews based on reviewId.",
+    "empty_entries": "Removed reviews with empty or null content.",
+    "short_reviews": "Removed reviews with fewer than 15 characters after cleaning.",
+    "text_cleaning": [
+      "Removed punctuation",
+      "Removed special characters",
+      "Removed emojis",
+      "Converted text to lowercase",
+      "Removed extra whitespace",
+      "Removed stop words",
+      "Lemmatized text"
+    ],
+    "field_selection": {
+      "kept_fields": [
+        "reviewId",
+        "userName",
+        "content",
+        "score",
+        "at",
+        "replyContent",
+        "appVersion"
+      ],
+      "removed_fields": "All other fields (such as, userImage and additional metadata) were removed."
+    },
+    "review_id_transformation": "Replaced original non-numeric review IDs with sequential human-readable IDs in the format rev_0001, rev_0002, etc."
+  }
+}
