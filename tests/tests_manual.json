@@ -1,16 +1,219 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T_manual_1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Continuous Playback Without Interruption",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the app",
+        "Start a meditation session",
+        "Let the session play fully"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The session plays continuously without stopping, looping, or crashing."
+    },
+    {
+      "test_id": "T_manual_2",
+      "requirement_id": "FR1",
+      "scenario": "Playback Stability During Background Use",
+      "steps": [
+        "Start a meditation session",
+        "Switch the app to background",
+        "Return to the app"
+      ],
+      "expected_result": "Playback continues uninterrupted and resumes correctly when returning to the app."
+    },
+    {
+      "test_id": "T_manual_3",
+      "requirement_id": "FR2",
+      "scenario": "Cross-Device Progress Sync",
+      "steps": [
+        "Complete a meditation session on device A",
+        "Log into the app on device B",
+        "Check progress and streak"
+      ],
+      "expected_result": "Progress and streak data match accurately across both devices."
+    },
+    {
+      "test_id": "T_auto_4",
+      "requirement_id": "FR2",
+      "scenario": "Streak Persistence After App Restart",
+      "steps": [
+        "Complete a meditation session",
+        "Close the app",
+        "Reopen the app and check streak"
+      ],
+      "expected_result": "The streak remains accurate after restarting the app."
+    },
+    {
+      "test_id": "T_auto_5",
+      "requirement_id": "FR3",
+      "scenario": "Apply Interval Chimes",
+      "steps": [
+        "Open session settings",
+        "Enable interval chimes",
+        "Start a session"
+      ],
+      "expected_result": "Chimes play at the configured intervals during the session."
+    },
+    {
+      "test_id": "T_auto_6",
+      "requirement_id": "FR3",
+      "scenario": "Queue Multiple Sessions",
+      "steps": [
+        "Select multiple meditation sessions",
+        "Add them to a queue",
+        "Start playback"
+      ],
+      "expected_result": "Sessions play sequentially in the defined order without interruption."
+    },
+    {
+      "test_id": "T_auto_7",
+      "requirement_id": "FR4",
+      "scenario": "Delete Session History",
+      "steps": [
+        "Navigate to session history",
+        "Select a session",
+        "Delete the session"
+      ],
+      "expected_result": "The selected session is removed from history without errors."
+    },
+    {
+      "test_id": "T_auto_8",
+      "requirement_id": "FR4",
+      "scenario": "Edit Session Record",
+      "steps": [
+        "Open session history",
+        "Select a session",
+        "Modify session details"
+      ],
+      "expected_result": "The session updates successfully with the new information."
+    },
+    {
+      "test_id": "T_auto_9",
+      "requirement_id": "FR5",
+      "scenario": "Content Playback Quality",
+      "steps": [
+        "Select a guided meditation",
+        "Start playback",
+        "Listen through the session"
+      ],
+      "expected_result": "Audio is clear, high-quality, and consistent throughout the session."
+    },
+    {
+      "test_id": "T_auto_10",
+      "requirement_id": "FR5",
+      "scenario": "Content Accessibility",
+      "steps": [
+        "Browse available sessions",
+        "Select different sessions",
+        "Start each session"
+      ],
+      "expected_result": "All sessions are accessible and play consistently without errors."
+    },
+    {
+      "test_id": "T_auto_11",
+      "requirement_id": "FR6",
+      "scenario": "No Ads During Navigation",
+      "steps": [
+        "Open the app",
+        "Navigate through different screens",
+        "Browse sessions"
+      ],
+      "expected_result": "No advertisements or pop-ups appear during navigation."
+    },
+    {
+      "test_id": "T_auto_12",
+      "requirement_id": "FR6",
+      "scenario": "No Ads During Session Playback",
+      "steps": [
+        "Start a meditation session",
+        "Observe during playback"
+      ],
+      "expected_result": "No ads or interruptions appear during the session."
+    },
+    {
+      "test_id": "T_auto_13",
+      "requirement_id": "FR7",
+      "scenario": "Access Core Features Without Payment",
+      "steps": [
+        "Open the app as a new user",
+        "Browse meditation sessions",
+        "Start a session"
+      ],
+      "expected_result": "User can access and play sessions without payment prompts."
+    },
+    {
+      "test_id": "T_auto_14",
+      "requirement_id": "FR7",
+      "scenario": "No Paywall Interruption",
+      "steps": [
+        "Navigate through core features",
+        "Attempt to access multiple sessions"
+      ],
+      "expected_result": "No paywall blocks access to core meditation features."
+    },
+    {
+      "test_id": "T_auto_15",
+      "requirement_id": "FR8",
+      "scenario": "Offline Playback of Downloaded Session",
+      "steps": [
+        "Download a meditation session",
+        "Disable internet connection",
+        "Play the downloaded session"
+      ],
+      "expected_result": "The session plays successfully without internet."
+    },
+    {
+      "test_id": "T_auto_16",
+      "requirement_id": "FR8",
+      "scenario": "Offline Progress Tracking",
+      "steps": [
+        "Disable internet connection",
+        "Complete a downloaded session",
+        "Reconnect to the internet"
+      ],
+      "expected_result": "Session progress syncs correctly after reconnection."
+    },
+    {
+      "test_id": "T_manual_17",
+      "requirement_id": "FR9",
+      "scenario": "Beginner Navigation Simplicity",
+      "steps": [
+        "Open the app for the first time",
+        "Navigate to a session",
+        "Start a session"
+      ],
+      "expected_result": "User can easily navigate and start a session without confusion."
+    },
+    {
+      "test_id": "T_manual_18",
+      "requirement_id": "FR9",
+      "scenario": "Minimal Interface Distraction",
+      "steps": [
+        "Open the app",
+        "Observe UI elements during navigation and playback"
+      ],
+      "expected_result": "Interface remains clean, minimal, and free of unnecessary elements."
+    },
+    {
+      "test_id": "T_manual_19",
+      "requirement_id": "FR10",
+      "scenario": "Gesture Compatibility",
+      "steps": [
+        "Use app gestures such as swiping",
+        "Perform device navigation gestures (back, home)"
+      ],
+      "expected_result": "App gestures do not interfere with system navigation."
+    },
+    {
+      "test_id": "T_manual_20",
+      "requirement_id": "FR10",
+      "scenario": "No Gesture Conflicts During Session Setup",
+      "steps": [
+        "Configure a session",
+        "Use swipe and tap gestures during setup"
+      ],
+      "expected_result": "All gestures function correctly without unintended actions."
     }
   ]
 }
